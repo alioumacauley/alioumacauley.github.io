@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>lifestyle blog</title>
+<meta charset="UTF-8">
+<meta name="description" content="lifestyle blog">
+<meta name="keywords" content="blog, book, lifestyle, music, sports, movies">
+<meta name="author" content="Aliou Macauley">
+
+<link rel="stylesheet" type="text/css" href="MacauleyAliouStylesheet.css">
+
+
+<body> 
+
+<div class="topnav">
+  <a class="active" href="MacauleyAliouHomepage.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="table.html">Table</a>
+  <a href="form.html">Form</a>
+</div>
+
+<h2>JavaScript Time</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+<h1 
+onmouseover="style.color='red'" 
+onmouseout="style.color='black'">Le Cafe</h1>
+<img src="Rootfolder1/img/friends.jpg" alt="happy people" width="1250" height="500">
+<p>Le cafe is our happy place where we all share with each other  movies that moved us, our favorite songs and artists of the moment, what competitions to look out for in the sports world, and finally books that we have read that marked us. Altogether, this page is us sharing a piece of our personality with the world. It is also a way for us to support young and underrated artists by giving them proper exposure. You can call it a bazaar because you never know what gem you are going to find.</p> 
+<hr>
+
+<audio controls>
+  <source src="Rootfolder1/audio/BarnesCir.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+
+<video width="400" controls>
+  <source src="Rootfolder1/videos/video.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+
+<h3>Music</h3>
+<img src="Rootfolder1/img/music1.jpg" alt="Music" width="1200" height="500">
+<p>Music is universal however it is always a personal experience for the listener. The place you first heard it, the mood you were in, who was around you, the weather on that particular day; all this concur to your experience whenever you hear a song. Here, we can express ourselves without the risk of being looked at as a nerd(even though we are nerds). Let us talk about your favorite artist, the first music you ever bought, ever met an artist in a totally unexpected way or place?We want to hear it.</p>
+
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+Music</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "No Music No Life"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+</script>
+<hr>
+
+<h4>Movies</h4>
+<img src="Rootfolder1/img/cinema.jpg" alt="cinema" width="1200" height="600"> 
+<p>Let us talk and relive those classics. I am talking
+
+<ul>
+  <li>Titanic,</li>
+  <li>the creed,</li>
+  <li>the Godfather.</li>
+</ul>      
+
+<p>Let us rememorate those memorable scenes. Commemorating the <span class="boldtext"> ones </span> who passed away and their legacy. Honoring the ones who are still entertaining us with their talent. What is that masterpiece you have watched and would like to share with us. Whos is your favorite actor/actress? Let us not forget the ones behind the camera and the ones who pen their imagination so we can enjoy ourselves in theaters.</p>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Movies"
+}
+</script>
+
+<hr>
+
+<h5>Sports</h5>
+<img src="Rootfolder1/img/sports1.jpg" alt="swimming" width="1200" height="500">
+<p> <span class="boldtext">Messi</span> or <span class="italictext">Cristiano</span>? <span class="boldtext">Jordan or Lebron</span>? <span class="boldtext">Mike Tyson or Mohamed Ali</span>? Who is the best? Bring your stats and let us settle this once and for all.Who is going to win the <a href="https://www.uefa.com/uefachampionsleague/"> UEFA Champions League</a> or the <a href="https://www.nfl.com/super-bowl/"> Super Bowl?</a>  What is the game to look out for? Are you more soccer or Football? Who do you think is going to win the next world cup <a href="https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022"> <img src="Rootfolder1/img/trophee.jpg" alt="trophee" width="50" height="50"> world cup </a> </p>
+<hr>
+
+<h6>Books</h6>
+<img src="Rootfolder1/img/book2.jpg" alt="Book" width="1200" height="500">
+<p>Are you a <span class="italictext boldtext"> sci-fi</span> adept? A <span class="italictext boldtext"> cuisine aficionado</span> or a <span class="italictext boldtext"> finance enthusiast</span>? Do you want to share an excert from a book that has stuck with you and is now your <span class="boldtext">mantra or leitmotiv</span>? Give us your Top 5 must read book in terms of finance, lifestyle, spirituality, education, history, poloitics. We want to hear it all.</p>
+<hr>
+
+</body>
+</html>
+
